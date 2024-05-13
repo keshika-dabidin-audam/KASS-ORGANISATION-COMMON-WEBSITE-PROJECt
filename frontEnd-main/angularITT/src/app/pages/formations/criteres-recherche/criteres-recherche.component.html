@@ -1,0 +1,38 @@
+<section class="rechercheForm">
+    <form [formGroup]="selectionForm" (ngSubmit)="onSubmit()" id="rechForm">
+        <fieldset class="criteres">
+            <legend>Critères</legend>
+            <div>
+                <label for="theme">Thème : </label>
+                <select name="theme" id="theme" formControlName="theme">
+                    <option value="Tous">Tous</option>
+                    @for (theme of themes; track theme) {
+                        <option [value]="theme">{{ theme }}</option>
+                    }
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Villes</legend>
+                <div class="ligneSelection">
+                    <input type="radio" name="ville" formControlName="ville" id="ville0" value="Toutes"><label for="ville0">Toutes</label>
+                </div> 
+                <div class="ligneSelection">
+                    <input type="radio" name="ville" formControlName="ville" id="ville1" value="Lille"><label for="ville1">Lille</label>
+                </div> 
+                <div class="ligneSelection">  
+                    <input type="radio" name="ville" formControlName="ville" id="ville2" value="Paris"><label for="ville2">Paris</label> 
+                </div> 
+                <div class="ligneSelection">
+                    <input type="radio" name="ville" formControlName="ville" id="ville3" value="Rouen"><label for="ville3">Rouen</label>   
+                </div>
+                                
+            </fieldset>
+            
+            <div class="boutons">
+                <button mat-raised-button type="submit">Valider</button>
+            </div>
+            
+        </fieldset>
+    </form>
+</section>

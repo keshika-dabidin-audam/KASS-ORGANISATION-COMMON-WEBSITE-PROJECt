@@ -1,0 +1,218 @@
+.baniere {
+  background-image: url(../../../assets/background-catalogue.jpg);
+  background-size: cover;
+
+}
+
+.titres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#titre2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--second-bg-color);
+  border-radius: 10px;
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+
+}
+
+.formule1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: black;
+  width: auto;
+  color: white;
+
+}
+.formule1 span {
+  color: black;
+  font-size: 1.5rem;
+
+}
+
+.financer{
+  display: flex;
+  justify-content: center;
+
+}
+.financer a{
+  cursor: pointer;
+}
+
+
+
+
+
+.formules img{
+  height: 50px;
+  width: 50px;
+
+
+}
+
+div.parent {
+  height: 300px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+div.box1 {
+  width: 300px;
+  height: 150px;
+  background-color: var(--second-bg-color);
+}
+
+.parent h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.parent a {
+  text-align: center;
+  color: white;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: solid;
+  padding: 5px;
+}
+
+div.box2 {
+  width: 300px;
+  height: 150px;
+  background-color: var(--second-bg-color);
+}
+
+div.box3 {
+  width: 300px;
+  height: 150px;
+  background-color: var(--second-bg-color);
+}
+
+#rh {
+  word-spacing: 4px;
+}
+div a {
+  font-weight: bold;
+  color: black;
+}
+
+.dropdownmenu ul ul {
+  display: none;
+  position: absolute;
+}
+
+.dropdownmenu ul li:hover > ul {
+  display: block;
+}
+.dropdownmenu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.dropdownmenu {
+  list-style: none;
+  width: auto;
+  margin-top: 5px;
+  margin-bottom: 12rem;
+}
+
+.dropdownmenu a {
+  background-color: var(--mdc-protected-button-container-color);
+  color: white;
+  display: block;
+  font-weight: bold;
+  font: 14px Roboto, sans-serif;
+ padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border-radius: var(--border-radius);
+}
+
+ 
+
+.dropdownmenu ul ul li:hover > a {
+  background-color: var(--first-color);
+  cursor: pointer;
+}
+
+#submenu1 a {
+  font-size: smaller;
+
+}
+.submenu{
+  padding : 0 ;
+}
+
+div.flou {
+  background-color: rgb(255 255 255 / 30%);
+  backdrop-filter: blur(10px);
+}
+.developpement{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+h2 , h3{
+  font-weight: bold;
+}
+.management {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.management h3{
+  font-weight: bold;
+}
+ ul{
+
+  list-style-type: none;
+  text-align: left;
+}
+.gestions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+h2{
+  padding: 1.5rem;
+  text-decoration: underline;
+}
+.humaines{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+
+

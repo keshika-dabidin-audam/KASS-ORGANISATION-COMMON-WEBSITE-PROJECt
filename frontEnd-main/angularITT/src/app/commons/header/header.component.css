@@ -1,0 +1,49 @@
+.headerContainer {
+    height: 90px;
+    
+}
+header {
+    background-color: var(--second-bg-color);   
+    padding: .8rem;
+    width: 100%;
+    z-index:2;
+    align-items: center;
+    position:absolute;
+    position: fixed;
+    box-shadow: 0 0px 10px var(--third-color);
+    
+    
+}
+.header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.header-title{
+    margin-right: 10rem;
+    font-family: "Montserrat",Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #13505B, 0 0 1em #13505B, 0 0 0.2em #13505B;
+}
+
+#logo {
+    width: 130px;
+}
+
+
+.nav-buttons{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--second-bg-color); 
+   
+}
+
+
+.nav-button{
+    margin-right:1rem;   
+}
+
